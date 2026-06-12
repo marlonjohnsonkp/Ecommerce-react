@@ -204,7 +204,7 @@ const buyNow = (product) => {
               
               <div className="cart-total">
   <span>Total:</span>
-  <span>${cartTotal.toFixed(2)}</span>
+  <span>₹{cartTotal.toFixed(2)}</span>
 </div>
 
 <button
