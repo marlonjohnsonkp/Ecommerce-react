@@ -6,63 +6,63 @@ const PRODUCTS = [
     id: 1,
     name: "AuraSound ANC Headphones",
     category: "Audio",
-    price: 899.99,
+    price: 899.00,
     image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcyluVo0DeLei4QH5hzr6SP1wY6UV8AWjmxpdxCL0l44v8g1Sl5wwUMW8UndnWlfnZmm9hBQf5XS1T8V0mhP2YWy3siscxw5M99KPXppRtUiSXHsvA26dRv6yz_tb_P9XXb5frHjo&usqp=CAc"
   },
   {
     id: 2,
     name: "KeyForge Pro Keyboard",
     category: "Accessories",
-    price: 189.99,
+    price: 612.00,
     image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRTaSx29UwolN9ZW1YsaYRYY1V3fvqX3bYjjCaL7J8zDn1eipb-GJgpOi8_Gx1nZ6zJb6lGk9b3R4Uwpd66Tl2BBqfABI7I50yqvhsIrzdY4YFu3B3NhNDF"
   },
   {
     id: 3,
     name: "NovaFit Smartwatch",
     category: "Wearables",
-    price: 249.99,
+    price: 2029.00,
     image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSdMGzzrHwSNPxU6zDLBWYvGnvlBtOhELhD6HUN5j0xryDpEvTshMIud7PUh_zYgXY0jKKatYl9iMutHtWcKZfV9HIcNdb7YXspLj8bJu0caNOjZgwH8Voj"
   },
   {
     id: 4,
     name: "Aerotrack Pro Mouse",
     category: "Accessories",
-    price: 99.99,
+    price: 899.00,
     image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQw1_FqZ5ag1B5Ws15bIU_IPKHbvdTdfjgXGZAvQbGZQAL5mtPPhG5U2IvirVpC2-cMgb1yGEseVmTfzjweHrzcH98K7xiQSvtIdkNxBg1IougUr2tpwTPaUA"
   },
   {
     id: 5,
     name: "Lumina Monitor Light Bar",
     category: "Smart Home",
-    price: 79.99,
+    price: 296.00,
     image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRnMzah9RDCCcaF6BgRjwKdjWUvikquNae7Oy3BcuodQ9ENntUqBG5Jx9x9eO67mE_ndU6v-oX_YTgulNXAPgQ91SDFYMrdgYcYpkVTcBs"
   },
   {
     id: 6,
     name: "VoltCharge 3-in-1 Charging Stand",
     category: "Accessories",
-    price: 59.99,
+    price: 206.00,
     image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR2WEoEslC2a1a9cWVxvyglQS8vGiVF_CiZHHs0JbrXOYY_Z04Y4xyUXaINDySKQmZfAKvIzjqH54JX9YBv-pZRuedJVtkNig"
   },
    {
     id: 7,
     name: "Quest Virtual Reality Headset",
     category: "Gaming",
-    price: 399.99,
+    price: 3999.99,
     image: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=500&auto=format&fit=crop&q=60"
   },
   {
     id: 8,
     name: "SonicBoom Portable Speaker",
     category: "Audio",
-    price: 129.99,
+    price: 1293.00,
     image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&auto=format&fit=crop&q=60"
   },
   {
     id: 9,
     name: "Veloce 8-in-1 USB-C Hub",
     category: "Accessories",
-    price: 49.99,
+    price: 499.99,
     image: "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=500&auto=format&fit=crop&q=60"
   }
 ];
