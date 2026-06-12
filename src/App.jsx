@@ -6,7 +6,7 @@ const PRODUCTS = [
     id: 1,
     name: "AuraSound ANC Headphones",
     category: "Audio",
-    price: 299.99,
+    price: 899.99,
     image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcyluVo0DeLei4QH5hzr6SP1wY6UV8AWjmxpdxCL0l44v8g1Sl5wwUMW8UndnWlfnZmm9hBQf5XS1T8V0mhP2YWy3siscxw5M99KPXppRtUiSXHsvA26dRv6yz_tb_P9XXb5frHjo&usqp=CAc"
   },
   {
@@ -166,7 +166,7 @@ const buyNow = (product) => {
                     <h3 className="product-name">{product.name}</h3>
                   </div>
                   <div>
-                    <div className="product-price">${product.price.toFixed(2)}</div>
+                    <div className="product-price">₹{product.price.toFixed(2)}</div>
                     <button onClick={() => addToCart(product)} className="btn-add">
                       Add to Cart
                     </button>
@@ -189,7 +189,7 @@ const buyNow = (product) => {
                   <div>
                     <strong>{item.name}</strong>
                     <br />
-                    <span>${item.price.toFixed(2)} x {item.quantity}</span>
+                    <span>₹{item.price.toFixed(2)} x {item.quantity}</span>
                   </div>
                   <button onClick={() => removeFromCart(item.id)} className="btn-remove">
                     Remove
