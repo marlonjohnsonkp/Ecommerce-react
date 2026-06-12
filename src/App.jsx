@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { Routes, Route, useNavigate } from "react-router-dom";
+import Checkout from "./Checkout";
 // 1. Mock Products Data - Simple list of items matching the images
 const PRODUCTS = [
   {
@@ -71,8 +72,8 @@ function App() {
   // 2. React State Variables
   const [cart, setCart] = useState([]);          // Holds items added to the cart
   const [searchTerm, setSearchTerm] = useState(""); // Holds the search keyword
-  const [sortBy, setSortBy] = useState("default"); // Holds the sorting option ("low-to-high" or "high-to-low")
-
+  const [sortBy, setSortBy] = useState("default");// Holds the sorting option ("low-to-high" or "high-to-low")
+  const navigate = useNavigate();
   // 3. Add Item to Cart Function
   const addToCart = (product) => {
     // Check if the item is already in the cart
@@ -118,7 +119,11 @@ const buyNow = (product) => {
   const cartTotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
   return (
-    <div className="container">
+  <Routes>
+    <Route
+      path="/"
+      element={
+        <div className="container">
       {/* Header Section */}
       <header>
         <h1>AuraMarket</h1>
@@ -204,9 +209,7 @@ const buyNow = (product) => {
 
 <button
   className="cart-buy-btn"
-  onClick={() =>
-    alert(`🛒 Order Placed!\n\nTotal Amount: $${cartTotal.toFixed(2)}`)
-  }
+  onClick={() => navigate("/checkout")}
 >
   Buy Now
 </button>
@@ -215,7 +218,12 @@ const buyNow = (product) => {
         </div>
 
       </div>
-    </div>
+      </div>
+      }
+    />
+
+    <Route path="/checkout" element={<Checkout />} />
+  </Routes>
   );
 }
 
